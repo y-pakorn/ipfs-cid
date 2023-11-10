@@ -6,8 +6,6 @@ use cid::multihash::MultihashDigest;
 use cid::Cid;
 
 pub fn generate_cid(bytes: &[u8]) -> Result<Cid> {
-    let h = Code::Sha2_256.digest(bytes);
-
     // create a UnixFS file
     let mut unixfs_file = ipfs_unixfs::file::adder::FileAdder::default();
 

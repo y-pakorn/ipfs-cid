@@ -12,7 +12,6 @@ license = "MIT"
 homepage = "https://github.com/omarabid/ipfs-cid"
 repository = "https://github.com/omarabid/ipfs-cid"
 readme = "README.md"
-rust-version = "1.70.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
